@@ -1,12 +1,13 @@
-import Header from './components/Header'
+import Intro from './Intro'
 
 export default function Home() {
-  return (
-    <main className="min-h-screen">
-      
-      <Header/>
 
+  return ( 
+    <main className="min-h-screen">
+
+        <Intro/>
 
     </main>
   )
+
 }
