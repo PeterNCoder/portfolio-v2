@@ -20,14 +20,13 @@ body {
 
 @font-face {
   font-family: "NeueBlack";
-  src: url("./fonts/TheNeue-Black.woff2") format("woff2");
+  src: url("/fonts/TheNeue-Black.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./fonts/Montserrat-Medium.ttf") format("truetype");
+  src: url("/fonts/Montserrat-Medium.ttf") format("truetype");
 }
-
 
 h1,
 h2 {
