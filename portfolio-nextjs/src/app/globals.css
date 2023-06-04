@@ -22,3 +22,19 @@ body {
   font-family: "NeueBlack";
   src: url("./fonts/TheNeue-Black.woff2") format("woff2");
 }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+
+h1,
+h2 {
+  font-family: "NeueBlack", sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}

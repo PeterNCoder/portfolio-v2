@@ -1,7 +1,9 @@
+import React from 'react';
+
 const Footer = () => {
     return (
-        <footer className="mb-16">
-            <p className="fixed left-0 bottom-12 rotate-90">
+        <footer className="absolute">
+            <p className="fixed left-[-3rem] bottom-[6.5rem] rotate-90">
                 &copy; Peter Nguyen
             </p>
         </footer>
