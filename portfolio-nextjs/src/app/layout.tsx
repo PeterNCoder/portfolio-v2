@@ -1,5 +1,4 @@
 import './globals.css'
-import React from 'react'
 import { Montserrat } from 'next/font/google'
 import Header from './Header'
 import Footer from './Footer'
