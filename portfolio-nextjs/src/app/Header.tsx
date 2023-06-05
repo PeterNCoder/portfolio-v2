@@ -8,10 +8,11 @@ const Header = () => {
 
             <Image
               className="m-1"
-              src='/logo.png'
+              src='/images/logo.png'
               alt="PN Logo"
               width={64}
               height={64}
+              priority
             />
 
             <Navbar/>

@@ -1,10 +1,13 @@
 import './globals.css'
 import React from 'react'
-import { Inter } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 import Header from './Header'
 import Footer from './Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const montserrat = Montserrat({ 
+    subsets: ['latin'], 
+    weight:"400"
+  })
 
 export const metadata = {
   title: "Peter Nguyen",
@@ -19,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={montserrat.className}>
         <Header/>
         {children}
         <Footer/>

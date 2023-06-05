@@ -4,7 +4,7 @@ import Link from "next/link";
 const Navbar = () => {
     return (
         <nav className="fixed bottom-0 left-0 z-50 w-full bg-sky-300">
-            <ul className="grid grid-cols-5 font-neue text-xs uppercase fill-neutral-900">
+            <ul className="grid grid-cols-5 text-xs uppercase fill-neutral-900">
                 <li className="w-full text-center">
                     <Link href="/" className="block w-full py-1">
                         <svg className="block w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">

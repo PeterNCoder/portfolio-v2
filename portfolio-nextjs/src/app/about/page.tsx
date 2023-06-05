@@ -29,7 +29,7 @@ const About = () => {
 
 
 
-                <Link href="/skills" className="block border-2 border-neutral-500 text-center font-neue uppercase py-2 m-2 bg-sky-300 rounded animate-pulse">
+                <Link href="/skills" className="block border-2 border-neutral-500 text-center uppercase py-2 m-2 bg-sky-300 rounded animate-pulse">
                     View - &apos;Skills&apos;
                 </Link>
 
